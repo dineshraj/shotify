@@ -1,0 +1,47 @@
+html {
+  font-family: helvetica, verdana, arial, sans-serif;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.shotify {
+  width: 100%;
+  height: 100%;
+}
+
+.shot {
+  text-align: center;
+}
+.shot img {
+  margin-bottom: 16px;
+  width: 300px;
+}
+.shot-name {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-family: "Indie Flower", cursive;
+}
+
+#credit {
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+#credit a {
+  color: #939393;
+  font-size: 12px;
+}
+
+@media only screen and (min-device-pixel-ratio: 2) {
+  .shot img {
+    width: 450px;
+  }
+}
